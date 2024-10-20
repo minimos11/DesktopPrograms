@@ -13,4 +13,4 @@ function loadPrograms(programs) {
         document.head.appendChild(script);
     });
 }
-loadPrograms(programsList);
+loadPrograms(programList);
