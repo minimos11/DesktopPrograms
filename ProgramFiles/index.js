@@ -1,4 +1,4 @@
-const programs = [
+const programList = [
     'ExampleProgram/MyProgram.js',
     
     //'path/to/your/program2.js',
@@ -13,4 +13,4 @@ function loadPrograms(programs) {
         document.head.appendChild(script);
     });
 }
-loadPrograms(programs);
+loadPrograms(programsList);
