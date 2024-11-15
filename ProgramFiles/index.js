@@ -1,4 +1,4 @@
-const programFilesList = [
+const programFileList = [
     'ExampleProgram/MyProgram.js',
     
     //'path/to/your/program2.js',
@@ -14,7 +14,7 @@ const programInfoList = [
 
 // Function to load scripts
 function loadPrograms() {
-    programFilesList.forEach(src => {
+    programFileList.forEach(src => {
         const script = document.createElement('script');
         script.src = 'https://minimos11.github.io/DesktopPrograms/ProgramFiles/' + src; //Makes the adress absolute and adds it to src of the script tag. 
         document.head.appendChild(script);
