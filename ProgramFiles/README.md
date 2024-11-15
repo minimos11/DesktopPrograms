@@ -7,4 +7,9 @@ Make sure that all the file adresses in your js file are absolute like this: `ht
 
 Then add your programs js file relative in the "index.js" file.
 
+And also add your programs details to the programinfo list.
+Here is template: `['function name', 'common name', 'icon'],`
+And replace the placeholders with the following details:
+The programs function name, its call/common name (like taskmgr becomes Task Manager), and icon is optional.
+
 Then it should be done and you can create a pull request.
