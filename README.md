@@ -1,7 +1,7 @@
 # Welcome to the Desktop programs github repository
 Here you can add your own custom programs to the [minimos11 Desktop](http://minimos11.net/code/Desktop/) also accesable with code `Desktop`.
 
-Note: This feature will be available in the next version of the minimos11 website.
+Note: This feature will be available in the next version of the minimos11 website. May release on 16th or 17th.
 
 ## Documentation
 
@@ -64,5 +64,14 @@ Open dev tools and add:
 ```
 Some where in the Desktop's page document.
 And type you functions name in the run dialog.
+
+### Extra functions you can call
+
+Message box:
+
+`messageBox(1. message, 2. type);`
+
+1. Error message string (What every you like).
+2. The type. Currently available: `error`,.
 
 ## That's all for now....
