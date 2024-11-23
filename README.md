@@ -1,8 +1,6 @@
 # Welcome to the Desktop programs github repository
 Here you can add your own custom programs to the [minimos11 Desktop](http://minimos11.net/code/Desktop/) also accesable with code `Desktop`.
 
-Note: This feature will be available in the next version of the minimos11 website. May release on 16th or 17th.
-
 ## Documentation
 
 ### How to create a program.
