@@ -96,9 +96,11 @@ And type you functions name in the run dialog.
 
 Message box:
 
-`messageBox(1. message, 2. type);`
+`messageBox(1. parent, 2. message, 3. title, 4. type);`
 
-1. Error message string (What every you like).
-2. The type. Currently available: `error`,.
+1. Specify the parent function.
+2. Error message string (What every you like).
+3. Title of the message box.
+4. The type. Currently available: `error`,.
 
 ## That's all for now....
