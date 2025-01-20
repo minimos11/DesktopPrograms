@@ -9,7 +9,7 @@ First create a function with your program name keep it all lowercase so it can b
 I also recommend for concistancy to also use it as the window ID and keep it short like on or two short words.
 Add a pass through variable where different events/parameters are passed through like close.
 
-Then you have too create a window.
+Then you have to create a window.
 
 ### How to create a window
 Here is a basic template to create a window:
