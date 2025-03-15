@@ -21,7 +21,7 @@ function loadPrograms() {
     });
 
     programInfoList.forEach(Info => {
-        document.getElementById("programList").insertAdjacentHTML("beforeend", `<li><button onclick="` + Info[0] + `(); DisplayWindow('` + Info[0] + `')"><img width="16px" height="16px" src="` + Info[2] + `">` + Info[0] + `.exe` + `</button></li>`)
+        document.getElementById("programList").insertAdjacentHTML("beforeend", `<li><button onclick="run('` + Info[0] + `')"><img width="16px" height="16px" src="` + Info[2] + `">` + Info[0] + `.dex` + `</button></li>`)
     });
 }
 
