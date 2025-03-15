@@ -6,7 +6,7 @@ const programFileList = [
 ];
 
 const programInfoList = [
-    ['myprogram', 'My program', '/resources/code-sub-pages/window.ico'],
+    ['myprogram', 'My program', 'resources/window.ico'],
     
     //['function name', 'common name', 'icon']
     // Add here your programs function name, its call/common name (like taskmgr becomes Task Manager), and icon is optional.
