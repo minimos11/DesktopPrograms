@@ -5,7 +5,7 @@ Here you can add your own custom programs to the [minimos11 Desktop](http://mini
 
 ### How to create a program.
 
-First create a function with your program name keep it all lowercase so it can be run by the run dialog and should be unique from any other program.
+First create a function with your program's name + $dex keep it all lowercase so it can be run by the run dialog and should be unique from any other program.
 I also recommend for concistancy to also use it as the window ID and keep it short like on or two short words.
 Add a pass through variable where different events/parameters are passed through like close.
 
@@ -14,7 +14,7 @@ Then you have to create a window.
 ### How to create a window
 Here is a basic template to create a window:
 ```
-function myprogram(call){
+function myprogram$dex(call){
     if(call == null){
         generateWindow(null, "myprogram", "My program", "/resources/code-sub-pages/window.ico", "");
         document.querySelector('#myprogram .window-body').innerHTML = "<h3>My sweet program</h3>";
@@ -37,7 +37,7 @@ To create a window the first thing your gone have to call is the generate window
 2. The window ID should be unique from any other program and is required. (I would recommend to have it be the same as your function's name)
 3. The window title can be any amount of character just don't make it to long.
 4. Use any url but best if it is a image in base64 and around 32px in width and height.
-5. Specify the window control buttons like close, leave blank for default. (`0` = no controls. `1` = only close button.)
+5. Specify the window control buttons like close, leave blank for default. (`0` = no controls. `1` = only close button. `2` = Default with Maximize disabled.)
 6. This is usefull if you want to create a sub window but have the programs function receive the close message intead of a function with the dialogs id and can also be used if your functions name is different from the window id.
 
 To set the height and width use:
@@ -66,7 +66,7 @@ if(call == null){
 
 When the close button or the icon is dubble clicked it first calls the windowID as a function with variable of `"_CLOSE"`.
 ```
-function myprogram(call){
+function myprogram$dex(call){
     if(call == "_CLOSE"){
         //Actions
     }
