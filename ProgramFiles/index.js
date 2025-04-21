@@ -6,7 +6,7 @@ const programFileList = [
 ];
 
 const programInfoList = [
-    ['myprogram', 'My program', '/resources/code-sub-pages/window.ico'],
+    ['myprogram', 'My program', 'resources/window.ico'],
     
     //['function name', 'common name', 'icon']
     // Add here your programs function name, its call/common name (like taskmgr becomes Task Manager), and icon is optional.
@@ -21,7 +21,7 @@ function loadPrograms() {
     });
 
     programInfoList.forEach(Info => {
-        document.getElementById("programList").insertAdjacentHTML("beforeend", `<li><button onclick="` + Info[0] + `(); DisplayWindow('` + Info[0] + `')"><img width="16px" height="16px" src="` + Info[2] + `">` + Info[0] + `.exe` + `</button></li>`)
+        document.getElementById("programList").insertAdjacentHTML("beforeend", `<li><button onclick="run('` + Info[0] + `')"><img width="16px" height="16px" src="` + Info[2] + `">` + Info[0] + `.dex` + `</button></li>`)
     });
 }
 
