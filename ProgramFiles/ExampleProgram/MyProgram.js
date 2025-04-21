@@ -1,5 +1,6 @@
 function myprogram$dex(){
     generateWindow(null, "myprogram", "My program", "resources/window.ico", "");
+    ShowWindow("myprogram");
     document.querySelector('#myprogram .window-body').innerHTML = "<h3>My sweet program</h3>";
     let window = document.getElementById('myprogram');
     window.style.height = "170px";
