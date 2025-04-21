@@ -17,6 +17,7 @@ Here is a basic template to create a window:
 function myprogram$dex(call){
     if(call == null){
         generateWindow(null, "myprogram", "My program", "/resources/code-sub-pages/window.ico", "");
+        ShowWindow("myprogram");
         document.querySelector('#myprogram .window-body').innerHTML = "<h3>My sweet program</h3>";
         let window = document.getElementById('myprogram');
         window.style.height = "170px";
@@ -48,6 +49,10 @@ window.style.width = "180px";
 ```
 You can also add any other styles if necessary.
 And don't forget to replace 'myprogram'
+### Display your window
+    To tell the window manager to display your window use:
+    `ShowWindow("Your window ID");`
+    
 
 ### Add your content
 
